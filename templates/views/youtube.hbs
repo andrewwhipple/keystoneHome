@@ -1,5 +1,5 @@
 {{!< default}}
-
+		<script src="/js/lib/jquery/jquery-1.11.1.min.js"></script>
 		<div class="container"><h1><a href="https://youtube.com/theandrewwhipple">Main Channel (TheAndrewWhipple)</a></h1>
 			<p><em>Original comedy songs, covers, and vlogs, and really whatever I feel like making.</em></p></div>
 
@@ -18,7 +18,7 @@
 		                    var videoid = "http://www.youtube.com/embed/"+item.id;
 		                    console.log("Latest ID: '"+videoid+"'");
 		                    var video = "<iframe width='300' height='225' src='"+videoid+"' frameborder='0' allowfullscreen></iframe>"; 
-		                    jQuery('#static_video').html(video);
+		                    $('#static_video').html(video);
 		                }
 		            }
 		        }
